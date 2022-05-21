@@ -1,18 +1,21 @@
 /*************************************************************************
-    > File Name: ring.c
+    > File Name: queue.c
     > Author: TOM
     > Mail: 18682303408@163.com
-    > Function: 
+    > Function:
     > Created Time: Sat 21 May 2022 12:32:26 PM HKT
  ************************************************************************/
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <errno.h>
-#include <unistd.h>
+#include <stdint.h>
 
-int main(int argc, char *argv[])
+#include "queue.h"
+
+queue_t *queue_create(int oper_nums, uint32_t cap)
 {
-    return EXIT_SUCCESS;
+    return NULL;
+}
+
+int queue_destroy(queue_t *handle)
+{
+    return 0;
 }
